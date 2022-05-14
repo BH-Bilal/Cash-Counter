@@ -1,0 +1,24 @@
+*{
+
+
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+
+}
+.description{
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    padding: 1rem;
+
+}
+.heading{
+    font-family:cursive;
+    font-display: auto;
+    color: mediumseagreen;
+    text-align: center;
+}

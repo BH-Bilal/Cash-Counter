@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,40 @@
     <link rel="stylesheet" href="./style.css" />
     <title>Number of notes</title>
 </head>
+
 <body>
     <div class="container">
         <h1 class="heading"> Cash Register Manager </h1>
-        <p class="description"> Enter the bill amount and cash received amount by the customer and get to know minimum number of note to return </p>
+        <p class="description"> Enter the bill amount and cash received amount by the
+            customer and get to know minimum number of note to return </p>
+        <label for="Bill-Amount"> Bill Amount:</label>
+        <input id="Bill-Amount" type="text" />
+        <button>Next</button>
+        <br>
+        <label for="Cash Given"> Cash Given:</label>
+        <input id="Cash-Given" type="text" /> </br>
+        <button> Check </button>
+        <table class="Change-Table"></table>
+        <br>
+        <caption> Return Change</caption>
+        <tr>
+            <th>No of Notes </th>
+            <td></td>
+        </tr>
+        <br>
+        <tr>
+            <th>Note</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>200</td>
+            <td>100</td>
+            <td>50</td>
+            <td>20</td>
+            <td>10</td>
+        </tr>
+
     </div>
-    
+
 </body>
+
 </html>
