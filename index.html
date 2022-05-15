@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" />
+    
     <title>Number of notes</title>
 </head>
 
@@ -14,19 +15,22 @@
         <h1 class="heading"> Cash Register Manager </h1>
         <p class="description"> Enter the bill amount and cash received amount by the
             customer and get to know minimum number of note to return </p>
-        <label for="Bill-Amount"> Bill Amount:</label>
-        <input id="Bill-Amount" type="text" />
-        <button>Next</button>
+        <label for="bill-Amount"> Bill Amount:</label>
+        <input id="bill-Amount" type="text" />
+        <!-- <button>Next</button> -->
         <br>
-        <label for="Cash Given"> Cash Given:</label>
-        <input id="Cash-Given" type="text" /> </br>
-        <button> Check </button>
+        <label for="cash-given"> Cash Given:</label>
+        <input id="cash-given" type="text" /> 
+        </br>
+        <button id="check_button" > Check </button>
+        <p id="error-message"></p>
         <table class="Change-Table"></table>
         <br>
         <caption> Return Change</caption>
+        <br>
         <tr>
             <th>No of Notes </th>
-            <td></td>
+            <td> </td>
         </tr>
         <br>
         <tr>
@@ -41,7 +45,7 @@
         </tr>
 
     </div>
-
+    <script src="./index.js"> </script>
 </body>
 
 </html>
